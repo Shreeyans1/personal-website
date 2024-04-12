@@ -1,13 +1,15 @@
-
 /* Section:Title */
-
+#title{
+  position: relative;
+  background-color: #c9c2ff;
+  z-index: -100;
+}
 .title{
   padding-top: 100px;
-  background-color: #c9c2ff;
   height: 85vh;
-  z-index: -1;
+  z-index: -10;
 }
-
+ 
 .titletext {
   font-size: calc(1rem + 3.3vw);
   margin-bottom: 0;
@@ -15,40 +17,37 @@
   font-weight: 500;
   font-style: normal;
   color: rgb(136, 153, 233);
-  z-index: 1;
+  z-index: -10;
 }
-
+ 
 @media (min-width: 1000px) {
   .im {
     font-size: 4rem;
   }
 }
-
+ 
 .nameimage{
   margin-top: 0;
   margin-bottom: 20px;
   min-width: 250px;
-  z-index: 1;
+  z-index: -10;
 }
-
+ 
 .webill{
   position: fixed;
   bottom: -50px;
-  z-index: 0;
+  z-index: -5;
   border-radius: 5%;
   min-width: 350px;
 }
-
-
-
-
+ 
 /* Section: skills */
-
+ 
 .skilldiv{
   background-color: white;
-  z-index: 1;
+  z-index: 2;
 }
-
+ 
 h1{
   color: #6dc0b9;
     font-family: "Montserrat", sans-serif;
@@ -57,47 +56,40 @@ h1{
     padding-bottom: 10px;
     z-index: 1;
 }
-
+ 
 .btn{
   background-color: hsl(114, 100%, 95%);
   color: #5faaff;
   font-weight: 100px;
-
+ 
 }
-
+ 
 .skill{
   background-color: #8CBDF5;
   color: white;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+#skills{
+  z-index: 100;
+}
+ 
 /* JUST SOME COLOR OPTIONS I MIGHT CHANGE TO
-
+ 
 For lightbluetop
 #title{
   background-color: #cbc3ff;
 }
-
+ 
 For lightpurpletop
 #title{
   background-color: #c9c2ff;
 }
-
+ 
 For lightbluetop
 #title{
   background-color: #c4edff;
 }
-
+ 
 For whitetop
 #title{
   background-color: #fdecff;
